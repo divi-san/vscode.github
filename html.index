@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>APEX</title>
+ </head>
+ <body>
+ <h1>APEXとは</h1>
+ <p>基本プレイ無料のバトルロワイヤルFPS</p>
+</body>
+<form action="bureibu24@gmail.com" method="post">
+    <!--trで表の行を定義-->
+ <tr>
+     <!--tdで表のデータを入れる-->
+  <td align="right">名前</td>
+  <td><input type="text" name="name" size="30" maxlength="20"></td>  
+ </tr>
+ <tr>
+  <td align="right">パスワード</td>   
+  <td><input type="password" name="pass" size="5" maxlength="8"></td>
+ </tr>
+ <tr>
+  <td align="light">年齢</td>
+  <td>
+   <input type="radio" name="age" value="9歳未満">9歳未満
+   <input type="radio" name="age" value="10歳以上20歳未満">10歳以上20歳未満
+   <input type="radio" name="age" value="20歳以上30歳未満">20歳以上30歳未満
+   <input type="radio" name="age" value="30歳以上40歳未満">30歳以上40歳未満
+   <input type="radio" name="age" value="40歳以上50歳未満">40歳以上50歳未満
+   <input type="radio" name="age" value="50歳以上">50歳以上
+  </td>
+</tr>
+<tr>
+ <td align="right">ファイル</td>
+ <td type="file" name="date"></td>
+</tr>
+<tr>
+ <td></td>
+ <td>
+     <!--typeで行動を選択、valueで名前を選択-->
+  <input type="submit" value="送信">
+  <input type="reset" value="リセット">
+ </td>
+</tr>
+</form>
+</html>
